@@ -1,6 +1,4 @@
-import { useContext, useState } from 'react';
 
-import { useRouter } from 'next/router';
 
 export default function Login() {
   const { login } = useContext(AuthContext);
