@@ -1,7 +1,5 @@
 // pages/profile.js
-import { useContext } from 'react';
-import { AuthContext } from '../context/AuthContext';
-import withAuth from '../utils/withAuth';
+
 
 function Profile() {
   const { user } = useContext(AuthContext);
